@@ -23,7 +23,7 @@ jobs:
       
       - name: Set up environment file
         run: |
-          cp env.template .env
+          cp env.template.txt .env
           # Optionally, you can set environment variables here
           # echo "VERSION=${{ github.sha }}" >> .env
           
