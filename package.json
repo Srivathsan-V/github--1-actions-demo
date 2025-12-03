@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_expressjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@launchdarkly/node-server-sdk": "^9.7.5",
+    "axios": "^1.6.0",
+    "express": "^5.1.0",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.10",
+    "vite": "^7.0.6"
+  }
+}
