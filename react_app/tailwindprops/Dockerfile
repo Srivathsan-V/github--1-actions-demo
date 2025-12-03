@@ -12,8 +12,6 @@ RUN npm ci
 COPY . .
 
 # Copy environment template to .env
-RUN cp env.template .env
-
 # Build the application
 RUN npm run build
 
